@@ -1,0 +1,10 @@
+G:\WinFormApp (Сентябрь)\ProjectVoice\bin\Release\ProjectVoice.exe.config
+G:\WinFormApp (Сентябрь)\ProjectVoice\bin\Release\ProjectVoice.exe
+G:\WinFormApp (Сентябрь)\ProjectVoice\bin\Release\ProjectVoice.pdb
+G:\WinFormApp (Сентябрь)\ProjectVoice\obj\Release\ProjectVoice.csprojAssemblyReference.cache
+G:\WinFormApp (Сентябрь)\ProjectVoice\obj\Release\ProjectVoice.Form1.resources
+G:\WinFormApp (Сентябрь)\ProjectVoice\obj\Release\ProjectVoice.Properties.Resources.resources
+G:\WinFormApp (Сентябрь)\ProjectVoice\obj\Release\ProjectVoice.csproj.GenerateResource.cache
+G:\WinFormApp (Сентябрь)\ProjectVoice\obj\Release\ProjectVoice.csproj.CoreCompileInputs.cache
+G:\WinFormApp (Сентябрь)\ProjectVoice\obj\Release\ProjectVoice.exe
+G:\WinFormApp (Сентябрь)\ProjectVoice\obj\Release\ProjectVoice.pdb
