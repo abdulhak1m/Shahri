@@ -32,13 +32,13 @@
             this.panel_Top = new System.Windows.Forms.Panel();
             this.Close = new System.Windows.Forms.Button();
             this.panel_Menu = new System.Windows.Forms.Panel();
-            this.Read_btn = new System.Windows.Forms.Button();
-            this.Pause_btn = new System.Windows.Forms.Button();
-            this.Resume_btn = new System.Windows.Forms.Button();
-            this.Open_btn = new System.Windows.Forms.Button();
-            this.Record_btn = new System.Windows.Forms.Button();
             this.Exit_btn = new System.Windows.Forms.Button();
+            this.Record_btn = new System.Windows.Forms.Button();
+            this.Open_btn = new System.Windows.Forms.Button();
+            this.Resume_btn = new System.Windows.Forms.Button();
+            this.Pause_btn = new System.Windows.Forms.Button();
             this.Menu_btn = new System.Windows.Forms.Button();
+            this.Read_btn = new System.Windows.Forms.Button();
             this.txt_Speak = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.trkVolum = new System.Windows.Forms.TrackBar();
@@ -92,96 +92,8 @@
             this.panel_Menu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel_Menu.Location = new System.Drawing.Point(0, 25);
             this.panel_Menu.Name = "panel_Menu";
-            this.panel_Menu.Size = new System.Drawing.Size(200, 430);
+            this.panel_Menu.Size = new System.Drawing.Size(65, 430);
             this.panel_Menu.TabIndex = 1;
-            // 
-            // Read_btn
-            // 
-            this.Read_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Read_btn.BackColor = System.Drawing.Color.White;
-            this.Read_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Read_btn.FlatAppearance.BorderSize = 0;
-            this.Read_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Read_btn.ForeColor = System.Drawing.Color.White;
-            this.Read_btn.Image = ((System.Drawing.Image)(resources.GetObject("Read_btn.Image")));
-            this.Read_btn.Location = new System.Drawing.Point(16, 67);
-            this.Read_btn.Name = "Read_btn";
-            this.Read_btn.Size = new System.Drawing.Size(168, 30);
-            this.Read_btn.TabIndex = 2;
-            this.Read_btn.UseVisualStyleBackColor = false;
-            this.Read_btn.Click += new System.EventHandler(this.Read_btn_Click);
-            // 
-            // Pause_btn
-            // 
-            this.Pause_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Pause_btn.BackColor = System.Drawing.Color.White;
-            this.Pause_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Pause_btn.FlatAppearance.BorderSize = 0;
-            this.Pause_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Pause_btn.ForeColor = System.Drawing.Color.White;
-            this.Pause_btn.Image = ((System.Drawing.Image)(resources.GetObject("Pause_btn.Image")));
-            this.Pause_btn.Location = new System.Drawing.Point(16, 125);
-            this.Pause_btn.Name = "Pause_btn";
-            this.Pause_btn.Size = new System.Drawing.Size(168, 30);
-            this.Pause_btn.TabIndex = 2;
-            this.Pause_btn.UseVisualStyleBackColor = false;
-            // 
-            // Resume_btn
-            // 
-            this.Resume_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Resume_btn.BackColor = System.Drawing.Color.White;
-            this.Resume_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Resume_btn.FlatAppearance.BorderSize = 0;
-            this.Resume_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Resume_btn.ForeColor = System.Drawing.Color.White;
-            this.Resume_btn.Image = ((System.Drawing.Image)(resources.GetObject("Resume_btn.Image")));
-            this.Resume_btn.Location = new System.Drawing.Point(16, 179);
-            this.Resume_btn.Name = "Resume_btn";
-            this.Resume_btn.Size = new System.Drawing.Size(168, 30);
-            this.Resume_btn.TabIndex = 2;
-            this.Resume_btn.UseVisualStyleBackColor = false;
-            // 
-            // Open_btn
-            // 
-            this.Open_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Open_btn.BackColor = System.Drawing.Color.White;
-            this.Open_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Open_btn.FlatAppearance.BorderSize = 0;
-            this.Open_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Open_btn.ForeColor = System.Drawing.Color.White;
-            this.Open_btn.Image = ((System.Drawing.Image)(resources.GetObject("Open_btn.Image")));
-            this.Open_btn.Location = new System.Drawing.Point(16, 236);
-            this.Open_btn.Name = "Open_btn";
-            this.Open_btn.Size = new System.Drawing.Size(168, 30);
-            this.Open_btn.TabIndex = 2;
-            this.Open_btn.UseVisualStyleBackColor = false;
-            this.Open_btn.Click += new System.EventHandler(this.Open_btn_Click);
-            // 
-            // Record_btn
-            // 
-            this.Record_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Record_btn.BackColor = System.Drawing.Color.White;
-            this.Record_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Record_btn.FlatAppearance.BorderSize = 0;
-            this.Record_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Record_btn.ForeColor = System.Drawing.Color.White;
-            this.Record_btn.Image = ((System.Drawing.Image)(resources.GetObject("Record_btn.Image")));
-            this.Record_btn.Location = new System.Drawing.Point(16, 287);
-            this.Record_btn.Name = "Record_btn";
-            this.Record_btn.Size = new System.Drawing.Size(168, 30);
-            this.Record_btn.TabIndex = 2;
-            this.Record_btn.UseVisualStyleBackColor = false;
-            this.Record_btn.Click += new System.EventHandler(this.Record_btn_Click);
             // 
             // Exit_btn
             // 
@@ -196,10 +108,80 @@
             this.Exit_btn.Image = ((System.Drawing.Image)(resources.GetObject("Exit_btn.Image")));
             this.Exit_btn.Location = new System.Drawing.Point(16, 342);
             this.Exit_btn.Name = "Exit_btn";
-            this.Exit_btn.Size = new System.Drawing.Size(168, 30);
+            this.Exit_btn.Size = new System.Drawing.Size(33, 30);
             this.Exit_btn.TabIndex = 2;
             this.Exit_btn.UseVisualStyleBackColor = false;
             this.Exit_btn.Click += new System.EventHandler(this.Exit_btn_Click);
+            // 
+            // Record_btn
+            // 
+            this.Record_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Record_btn.BackColor = System.Drawing.Color.White;
+            this.Record_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Record_btn.FlatAppearance.BorderSize = 0;
+            this.Record_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Record_btn.ForeColor = System.Drawing.Color.White;
+            this.Record_btn.Image = ((System.Drawing.Image)(resources.GetObject("Record_btn.Image")));
+            this.Record_btn.Location = new System.Drawing.Point(16, 287);
+            this.Record_btn.Name = "Record_btn";
+            this.Record_btn.Size = new System.Drawing.Size(33, 30);
+            this.Record_btn.TabIndex = 2;
+            this.Record_btn.UseVisualStyleBackColor = false;
+            this.Record_btn.Click += new System.EventHandler(this.Record_btn_Click);
+            // 
+            // Open_btn
+            // 
+            this.Open_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Open_btn.BackColor = System.Drawing.Color.White;
+            this.Open_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Open_btn.FlatAppearance.BorderSize = 0;
+            this.Open_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Open_btn.ForeColor = System.Drawing.Color.White;
+            this.Open_btn.Image = ((System.Drawing.Image)(resources.GetObject("Open_btn.Image")));
+            this.Open_btn.Location = new System.Drawing.Point(16, 236);
+            this.Open_btn.Name = "Open_btn";
+            this.Open_btn.Size = new System.Drawing.Size(33, 30);
+            this.Open_btn.TabIndex = 2;
+            this.Open_btn.UseVisualStyleBackColor = false;
+            this.Open_btn.Click += new System.EventHandler(this.Open_btn_Click);
+            // 
+            // Resume_btn
+            // 
+            this.Resume_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Resume_btn.BackColor = System.Drawing.Color.White;
+            this.Resume_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Resume_btn.FlatAppearance.BorderSize = 0;
+            this.Resume_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Resume_btn.ForeColor = System.Drawing.Color.White;
+            this.Resume_btn.Image = ((System.Drawing.Image)(resources.GetObject("Resume_btn.Image")));
+            this.Resume_btn.Location = new System.Drawing.Point(16, 179);
+            this.Resume_btn.Name = "Resume_btn";
+            this.Resume_btn.Size = new System.Drawing.Size(33, 30);
+            this.Resume_btn.TabIndex = 2;
+            this.Resume_btn.UseVisualStyleBackColor = false;
+            // 
+            // Pause_btn
+            // 
+            this.Pause_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Pause_btn.BackColor = System.Drawing.Color.White;
+            this.Pause_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Pause_btn.FlatAppearance.BorderSize = 0;
+            this.Pause_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Pause_btn.ForeColor = System.Drawing.Color.White;
+            this.Pause_btn.Image = ((System.Drawing.Image)(resources.GetObject("Pause_btn.Image")));
+            this.Pause_btn.Location = new System.Drawing.Point(16, 125);
+            this.Pause_btn.Name = "Pause_btn";
+            this.Pause_btn.Size = new System.Drawing.Size(33, 30);
+            this.Pause_btn.TabIndex = 2;
+            this.Pause_btn.UseVisualStyleBackColor = false;
             // 
             // Menu_btn
             // 
@@ -214,9 +196,27 @@
             this.Menu_btn.Image = ((System.Drawing.Image)(resources.GetObject("Menu_btn.Image")));
             this.Menu_btn.Location = new System.Drawing.Point(15, 10);
             this.Menu_btn.Name = "Menu_btn";
-            this.Menu_btn.Size = new System.Drawing.Size(168, 30);
+            this.Menu_btn.Size = new System.Drawing.Size(33, 30);
             this.Menu_btn.TabIndex = 2;
             this.Menu_btn.UseVisualStyleBackColor = false;
+            // 
+            // Read_btn
+            // 
+            this.Read_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Read_btn.BackColor = System.Drawing.Color.White;
+            this.Read_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Read_btn.FlatAppearance.BorderSize = 0;
+            this.Read_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Read_btn.ForeColor = System.Drawing.Color.White;
+            this.Read_btn.Image = ((System.Drawing.Image)(resources.GetObject("Read_btn.Image")));
+            this.Read_btn.Location = new System.Drawing.Point(16, 67);
+            this.Read_btn.Name = "Read_btn";
+            this.Read_btn.Size = new System.Drawing.Size(33, 30);
+            this.Read_btn.TabIndex = 2;
+            this.Read_btn.UseVisualStyleBackColor = false;
+            this.Read_btn.Click += new System.EventHandler(this.Read_btn_Click);
             // 
             // txt_Speak
             // 
@@ -224,10 +224,10 @@
             this.txt_Speak.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_Speak.Dock = System.Windows.Forms.DockStyle.Top;
             this.txt_Speak.ForeColor = System.Drawing.Color.Indigo;
-            this.txt_Speak.Location = new System.Drawing.Point(200, 25);
+            this.txt_Speak.Location = new System.Drawing.Point(65, 25);
             this.txt_Speak.Multiline = true;
             this.txt_Speak.Name = "txt_Speak";
-            this.txt_Speak.Size = new System.Drawing.Size(711, 266);
+            this.txt_Speak.Size = new System.Drawing.Size(846, 266);
             this.txt_Speak.TabIndex = 2;
             this.txt_Speak.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
